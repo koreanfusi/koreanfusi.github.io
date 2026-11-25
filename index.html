@@ -1,0 +1,1295 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>欧洲午夜一线一品精狼人在线观 | 夜映平台 · 沉浸式午夜影像社区</title>
+<meta name="description" content="欧洲午夜一线一品精狼人在线观，夜映是专注午夜影像内容的在线视频品牌平台，提供欧洲午夜精选、一线精品影像与狼人题材专栏，汇聚创作者与观众的深夜社区。">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+--bg:#08080c;
+--bg2:#0e0e15;
+--bg3:#14141f;
+--panel:#12121b;
+--panel2:#181824;
+--line:rgba(255,255,255,.08);
+--line2:rgba(255,255,255,.14);
+--txt:#e9e9f2;
+--txt2:#9a9ab0;
+--txt3:#6b6b82;
+--acc:#c9a227;
+--acc2:#8b6fd4;
+--acc3:#e0475b;
+--glow:rgba(201,162,39,.28);
+--r:14px;
+--max:1240px;
+}
+html{scroll-behavior:smooth}
+body{
+font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",-apple-system,"Segoe UI",sans-serif;
+background:var(--bg);
+color:var(--txt);
+line-height:1.75;
+overflow-x:hidden;
+-webkit-font-smoothing:antialiased;
+letter-spacing:.02em;
+}
+body::before{
+content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
+background:
+radial-gradient(900px 520px at 12% -8%,rgba(139,111,212,.16),transparent 62%),
+radial-gradient(820px 500px at 88% 4%,rgba(201,162,39,.12),transparent 60%),
+radial-gradient(700px 700px at 50% 108%,rgba(224,71,91,.10),transparent 65%);
+}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+.container{width:100%;max-width:var(--max);margin:0 auto;padding:0 26px;position:relative;z-index:1}
+
+/* ---------- header ---------- */
+.site-header{
+position:sticky;top:0;z-index:100;
+background:rgba(8,8,12,.72);
+backdrop-filter:blur(18px);
+-webkit-backdrop-filter:blur(18px);
+border-bottom:1px solid var(--line);
+}
+.nav-wrap{display:flex;align-items:center;justify-content:space-between;height:72px;gap:24px}
+.logo{display:flex;align-items:center;gap:11px;flex-shrink:0}
+.logo-mark{
+width:38px;height:38px;border-radius:11px;
+background:linear-gradient(140deg,var(--acc),#7d5fc4 70%,var(--acc3));
+display:grid;place-items:center;
+box-shadow:0 0 26px var(--glow);
+}
+.logo-mark svg{width:20px;height:20px}
+.logo-txt{display:flex;flex-direction:column;line-height:1.2}
+.logo-txt b{font-size:17px;letter-spacing:.14em;font-weight:700}
+.logo-txt span{font-size:10px;color:var(--txt3);letter-spacing:.28em;text-transform:uppercase}
+.nav-links{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.nav-links a{
+font-size:14px;color:var(--txt2);padding:9px 14px;border-radius:9px;
+transition:.22s;position:relative;white-space:nowrap;
+}
+.nav-links a:hover{color:var(--txt);background:rgba(255,255,255,.05)}
+.nav-links a.active{color:var(--acc)}
+.nav-links a.active::after{
+content:"";position:absolute;left:14px;right:14px;bottom:3px;height:2px;
+background:linear-gradient(90deg,var(--acc),transparent);border-radius:2px;
+}
+.nav-right{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.search-box{
+display:flex;align-items:center;gap:8px;
+background:var(--panel);border:1px solid var(--line);border-radius:10px;
+padding:8px 12px;width:200px;transition:.24s;
+}
+.search-box:focus-within{border-color:rgba(201,162,39,.45);box-shadow:0 0 0 3px rgba(201,162,39,.09)}
+.search-box svg{width:15px;height:15px;fill:var(--txt3);flex-shrink:0}
+.search-box input{
+background:none;border:none;outline:none;color:var(--txt);font-size:13px;width:100%;
+}
+.search-box input::placeholder{color:var(--txt3)}
+.btn{
+display:inline-flex;align-items:center;justify-content:center;gap:8px;
+padding:10px 20px;border-radius:10px;font-size:14px;font-weight:600;
+transition:.24s;white-space:nowrap;
+}
+.btn-primary{background:linear-gradient(120deg,var(--acc),#a8851b);color:#12100a;box-shadow:0 6px 22px rgba(201,162,39,.22)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(201,162,39,.34)}
+.btn-ghost{border:1px solid var(--line2);color:var(--txt);background:rgba(255,255,255,.03)}
+.btn-ghost:hover{border-color:rgba(201,162,39,.5);color:var(--acc)}
+.menu-toggle{display:none;width:42px;height:42px;border-radius:10px;border:1px solid var(--line);align-items:center;justify-content:center}
+.menu-toggle svg{width:19px;height:19px;fill:var(--txt)}
+
+/* ---------- hero ---------- */
+.hero{position:relative;padding:78px 0 66px;overflow:hidden}
+.hero::after{
+content:"";position:absolute;left:0;right:0;bottom:0;height:1px;
+background:linear-gradient(90deg,transparent,var(--line2),transparent);
+}
+.hero-grid{display:grid;grid-template-columns:1.06fr .94fr;gap:56px;align-items:center}
+.hero-badge{
+display:inline-flex;align-items:center;gap:9px;
+padding:6px 14px;border-radius:100px;font-size:12.5px;letter-spacing:.06em;
+background:rgba(201,162,39,.09);border:1px solid rgba(201,162,39,.28);
+color:var(--acc);margin-bottom:26px;
+}
+.pulse-dot{width:7px;height:7px;border-radius:50%;background:var(--acc);position:relative}
+.pulse-dot::after{content:"";position:absolute;inset:-4px;border-radius:50%;border:1px solid var(--acc);opacity:.6;animation:pulse 1.9s ease-out infinite}
+@keyframes pulse{0%{transform:scale(.6);opacity:.8}100%{transform:scale(1.9);opacity:0}}
+.hero h1{
+font-size:clamp(34px,5vw,64px);
+line-height:1.14;font-weight:800;letter-spacing:-.015em;margin-bottom:8px;
+background:linear-gradient(160deg,#fff 28%,#d8d8e6 62%,#9a7d1f 118%);
+-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+}
+.hero-sub{
+font-size:clamp(15px,1.5vw,18px);color:var(--acc);letter-spacing:.24em;
+font-weight:500;margin-bottom:22px;text-transform:uppercase;
+}
+.hero-desc{font-size:15.5px;color:var(--txt2);max-width:530px;margin-bottom:32px;line-height:1.95}
+.hero-desc strong{color:var(--txt);font-weight:600}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:38px}
+.hero-stats{display:flex;gap:38px;flex-wrap:wrap}
+.stat b{display:block;font-size:27px;font-weight:800;color:var(--txt);letter-spacing:-.01em}
+.stat b i{font-style:normal;color:var(--acc);font-size:16px;margin-left:2px}
+.stat span{font-size:12.5px;color:var(--txt3);letter-spacing:.1em}
+
+/* hero visual */
+.hero-visual{position:relative}
+.player-frame{
+position:relative;border-radius:18px;overflow:hidden;
+border:1px solid var(--line2);
+background:#05050a;
+box-shadow:0 30px 80px rgba(0,0,0,.6),0 0 0 1px rgba(255,255,255,.03) inset;
+aspect-ratio:16/10;
+}
+.player-frame::before{
+content:"";position:absolute;inset:0;z-index:0;
+background:
+radial-gradient(circle at 30% 26%,rgba(139,111,212,.42),transparent 58%),
+radial-gradient(circle at 76% 74%,rgba(201,162,39,.30),transparent 56%),
+radial-gradient(circle at 52% 100%,rgba(224,71,91,.22),transparent 60%);
+}
+.moon-svg{position:absolute;top:8%;right:9%;width:88px;height:88px;opacity:.9;z-index:1;filter:drop-shadow(0 0 22px rgba(201,162,39,.5))}
+.play-center{
+position:absolute;inset:0;display:grid;place-items:center;z-index:3;
+}
+.play-btn{
+width:78px;height:78px;border-radius:50%;
+background:rgba(255,255,255,.1);
+border:1px solid rgba(255,255,255,.32);
+backdrop-filter:blur(8px);
+display:grid;place-items:center;transition:.3s;
+box-shadow:0 0 0 0 rgba(201,162,39,.4);
+}
+.play-btn:hover{transform:scale(1.07);background:rgba(201,162,39,.22);border-color:var(--acc)}
+.play-btn svg{width:26px;height:26px;fill:#fff;margin-left:4px}
+.player-meta{
+position:absolute;left:0;right:0;bottom:0;z-index:3;padding:20px;
+background:linear-gradient(to top,rgba(3,3,7,.94),rgba(3,3,7,.5) 55%,transparent);
+}
+.player-meta .pm-tag{
+display:inline-block;font-size:11px;letter-spacing:.16em;color:var(--acc);
+border:1px solid rgba(201,162,39,.4);border-radius:5px;padding:2px 8px;margin-bottom:9px;
+}
+.player-meta b{display:block;font-size:16px;font-weight:700;margin-bottom:5px}
+.player-meta span{font-size:12.5px;color:var(--txt2)}
+.player-bar{
+position:absolute;left:20px;right:20px;bottom:14px;height:3px;border-radius:3px;
+background:rgba(255,255,255,.14);z-index:4;overflow:hidden;
+}
+.player-bar i{display:block;height:100%;width:36%;background:linear-gradient(90deg,var(--acc),var(--acc3));border-radius:3px;animation:slide 7s ease-in-out infinite alternate}
+@keyframes slide{0%{width:24%}100%{width:62%}}
+.float-card{
+position:absolute;border-radius:13px;padding:13px 16px;
+background:rgba(16,16,24,.9);border:1px solid var(--line2);
+backdrop-filter:blur(14px);
+box-shadow:0 14px 40px rgba(0,0,0,.5);z-index:5;
+}
+.float-card.fc1{left:-26px;top:16%;animation:float1 6.5s ease-in-out infinite}
+.float-card.fc2{right:-20px;bottom:14%;animation:float2 7.5s ease-in-out infinite}
+@keyframes float1{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+@keyframes float2{0%,100%{transform:translateY(0)}50%{transform:translateY(11px)}}
+.fc-label{font-size:10.5px;letter-spacing:.16em;color:var(--txt3);margin-bottom:4px}
+.fc-val{font-size:15px;font-weight:700;color:var(--txt)}
+.fc-val em{font-style:normal;color:var(--acc);font-size:12px;margin-left:4px}
+
+/* ---------- marquee ---------- */
+.marquee-wrap{
+border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+background:rgba(255,255,255,.015);overflow:hidden;padding:15px 0;
+}
+.marquee{display:flex;gap:0;width:max-content;animation:scrollx 38s linear infinite}
+.marquee:hover{animation-play-state:paused}
+@keyframes scrollx{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.mq-item{
+display:flex;align-items:center;gap:11px;padding:0 30px;font-size:13.5px;
+color:var(--txt2);letter-spacing:.06em;white-space:nowrap;
+border-right:1px solid var(--line);
+}
+.mq-item i{width:5px;height:5px;border-radius:50%;background:var(--acc);flex-shrink:0}
+
+/* ---------- section base ---------- */
+section{position:relative;padding:84px 0}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:30px;margin-bottom:46px;flex-wrap:wrap}
+.sec-label{
+font-size:12px;letter-spacing:.3em;color:var(--acc);text-transform:uppercase;
+display:flex;align-items:center;gap:10px;margin-bottom:14px;
+}
+.sec-label::before{content:"";width:26px;height:1px;background:var(--acc)}
+.sec-title{font-size:clamp(25px,3.1vw,38px);font-weight:800;letter-spacing:-.01em;line-height:1.28}
+.sec-title em{font-style:normal;color:var(--acc)}
+.sec-desc{font-size:14.5px;color:var(--txt2);max-width:520px;margin-top:12px}
+.sec-link{
+font-size:13.5px;color:var(--txt2);display:inline-flex;align-items:center;gap:7px;
+padding:9px 16px;border-radius:9px;border:1px solid var(--line);transition:.24s;
+}
+.sec-link:hover{border-color:rgba(201,162,39,.5);color:var(--acc);gap:11px}
+.sec-link svg{width:13px;height:13px;fill:currentColor;transition:.24s}
+
+/* ---------- featured grid ---------- */
+.feat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.feat-card{
+position:relative;border-radius:var(--r);overflow:hidden;
+background:var(--panel);border:1px solid var(--line);
+transition:.32s;display:flex;flex-direction:column;
+}
+.feat-card:hover{transform:translateY(-6px);border-color:rgba(201,162,39,.34);box-shadow:0 24px 54px rgba(0,0,0,.52)}
+.feat-thumb{position:relative;aspect-ratio:16/9.2;overflow:hidden}
+.feat-thumb .art{position:absolute;inset:0;transition:.5s}
+.feat-card:hover .art{transform:scale(1.06)}
+.feat-thumb::after{
+content:"";position:absolute;inset:0;
+background:linear-gradient(to top,rgba(8,8,12,.86),transparent 62%);
+}
+.dur{
+position:absolute;right:11px;bottom:11px;z-index:3;
+font-size:11.5px;padding:2.5px 8px;border-radius:5px;
+background:rgba(5,5,10,.8);border:1px solid rgba(255,255,255,.14);color:#ddd;
+}
+.cat-pill{
+position:absolute;left:11px;top:11px;z-index:3;
+font-size:11px;letter-spacing:.1em;padding:3px 9px;border-radius:5px;
+background:rgba(201,162,39,.16);border:1px solid rgba(201,162,39,.4);color:var(--acc);
+backdrop-filter:blur(6px);
+}
+.feat-body{padding:17px 18px 19px;flex:1;display:flex;flex-direction:column}
+.feat-body h3{font-size:16px;font-weight:700;margin-bottom:8px;line-height:1.5;letter-spacing:.01em}
+.feat-body p{font-size:13px;color:var(--txt2);line-height:1.75;flex:1;margin-bottom:14px}
+.feat-foot{display:flex;align-items:center;justify-content:space-between;font-size:12px;color:var(--txt3);border-top:1px solid var(--line);padding-top:12px}
+.feat-foot .who{display:flex;align-items:center;gap:7px}
+.mini-av{width:20px;height:20px;border-radius:50%;flex-shrink:0}
+
+/* art gradients */
+.art-a1{background:radial-gradient(circle at 26% 30%,#5a3fa8,#1b1330 62%,#0a0812)}
+.art-a2{background:radial-gradient(circle at 70% 26%,#8a6a15,#241c09 60%,#0d0b06)}
+.art-a3{background:radial-gradient(circle at 40% 66%,#8a2130,#240a10 62%,#0c0507)}
+.art-a4{background:radial-gradient(circle at 66% 34%,#1f5f6b,#0a1a1e 64%,#050b0d)}
+.art-a5{background:radial-gradient(circle at 30% 60%,#3e3378,#14102a 62%,#080610)}
+.art-a6{background:radial-gradient(circle at 60% 30%,#6d4a1c,#1e1508 64%,#0a0805)}
+.art-deco{position:absolute;inset:0;opacity:.5;mix-blend-mode:screen}
+.art-deco svg{width:100%;height:100%}
+
+/* ---------- midnight line (hot strip) ---------- */
+.midnight{
+background:linear-gradient(180deg,rgba(139,111,212,.06),transparent 70%);
+border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+}
+.strip-row{display:flex;gap:16px;overflow-x:auto;padding-bottom:10px;scrollbar-width:thin}
+.strip-row::-webkit-scrollbar{height:6px}
+.strip-row::-webkit-scrollbar-thumb{background:rgba(255,255,255,.12);border-radius:4px}
+.strip-card{
+flex:0 0 260px;border-radius:12px;overflow:hidden;position:relative;
+background:var(--panel);border:1px solid var(--line);transition:.28s;
+}
+.strip-card:hover{border-color:rgba(201,162,39,.4);transform:translateY(-4px)}
+.strip-thumb{aspect-ratio:16/9;position:relative}
+.strip-thumb .no{
+position:absolute;left:0;top:0;z-index:3;
+font-size:22px;font-weight:800;padding:4px 11px;
+background:linear-gradient(120deg,rgba(201,162,39,.92),rgba(168,133,27,.72));
+color:#0c0a05;border-bottom-right-radius:10px;letter-spacing:-.02em;
+}
+.strip-info{padding:13px 15px}
+.strip-info b{display:block;font-size:14px;margin-bottom:5px}
+.strip-info span{font-size:12px;color:var(--txt3)}
+
+/* ---------- schedule ---------- */
+.sched-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.sched-col{
+background:var(--panel);border:1px solid var(--line);border-radius:var(--r);
+padding:20px 19px;transition:.28s;
+}
+.sched-col:hover{border-color:rgba(201,162,39,.3);background:var(--panel2)}
+.sched-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:16px;padding-bottom:13px;border-bottom:1px solid var(--line)}
+.sched-head b{font-size:15px;letter-spacing:.02em}
+.sched-head span{font-size:11px;color:var(--txt3);letter-spacing:.12em}
+.sched-item{display:flex;gap:12px;padding:11px 0;border-bottom:1px dashed rgba(255,255,255,.055)}
+.sched-item:last-child{border-bottom:none;padding-bottom:0}
+.sched-time{font-size:12px;color:var(--acc);flex-shrink:0;font-variant-numeric:tabular-nums;font-weight:600;padding-top:1px}
+.sched-body b{display:block;font-size:13px;font-weight:600;margin-bottom:3px;line-height:1.5}
+.sched-body span{font-size:11.5px;color:var(--txt3)}
+
+/* ---------- creators ---------- */
+.creators{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.creator{
+background:var(--panel);border:1px solid var(--line);border-radius:var(--r);
+padding:26px 22px;text-align:center;transition:.3s;position:relative;overflow:hidden;
+}
+.creator::before{
+content:"";position:absolute;left:0;right:0;top:0;height:2px;
+background:linear-gradient(90deg,transparent,var(--acc),transparent);
+opacity:0;transition:.3s;
+}
+.creator:hover{transform:translateY(-5px);border-color:var(--line2);background:var(--panel2)}
+.creator:hover::before{opacity:1}
+.c-avatar{
+width:74px;height:74px;border-radius:50%;margin:0 auto 16px;position:relative;
+display:grid;place-items:center;font-size:25px;font-weight:800;
+border:2px solid rgba(255,255,255,.12);
+}
+.c-avatar.av1{background:linear-gradient(135deg,#3a2d6b,#8b6fd4);color:#e8e0ff}
+.c-avatar.av2{background:linear-gradient(135deg,#6b5214,#c9a227);color:#fff6d6}
+.c-avatar.av3{background:linear-gradient(135deg,#6b1a25,#e0475b);color:#ffe2e6}
+.c-avatar.av4{background:linear-gradient(135deg,#15525c,#2e9aa8);color:#dcf8fc}
+.creator b{display:block;font-size:15.5px;margin-bottom:5px}
+.creator .role{font-size:12px;color:var(--acc);letter-spacing:.08em;margin-bottom:12px}
+.creator p{font-size:12.5px;color:var(--txt2);line-height:1.8;margin-bottom:15px}
+.c-tags{display:flex;gap:6px;justify-content:center;flex-wrap:wrap}
+.c-tags span{font-size:10.5px;padding:3px 9px;border-radius:100px;background:rgba(255,255,255,.05);color:var(--txt3);border:1px solid var(--line)}
+
+/* ---------- manifesto / split ---------- */
+.manifest{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.mf-visual{
+position:relative;border-radius:18px;overflow:hidden;border:1px solid var(--line2);
+aspect-ratio:4/3.4;background:#06060c;
+}
+.mf-art{position:absolute;inset:0;background:
+radial-gradient(circle at 30% 24%,rgba(139,111,212,.5),transparent 58%),
+radial-gradient(circle at 72% 80%,rgba(201,162,39,.34),transparent 56%),
+linear-gradient(160deg,#12101f,#07060d)}
+.mf-grid-lines{position:absolute;inset:0;opacity:.16;
+background-image:linear-gradient(rgba(255,255,255,.5) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.5) 1px,transparent 1px);
+background-size:44px 44px;
+-webkit-mask-image:radial-gradient(circle at 50% 50%,#000,transparent 76%);
+mask-image:radial-gradient(circle at 50% 50%,#000,transparent 76%);}
+.mf-ring{
+position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+width:62%;aspect-ratio:1;border-radius:50%;
+border:1px solid rgba(201,162,39,.4);animation:spin 26s linear infinite;
+}
+.mf-ring::before{content:"";position:absolute;top:-4px;left:50%;width:8px;height:8px;border-radius:50%;background:var(--acc);box-shadow:0 0 14px var(--acc)}
+.mf-ring.r2{width:40%;border-color:rgba(139,111,212,.42);animation-duration:18s;animation-direction:reverse}
+.mf-ring.r2::before{background:var(--acc2);box-shadow:0 0 14px var(--acc2)}
+@keyframes spin{to{transform:translate(-50%,-50%) rotate(360deg)}}
+.mf-center{
+position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+text-align:center;z-index:3;
+}
+.mf-center b{display:block;font-size:34px;font-weight:800;letter-spacing:.02em;background:linear-gradient(140deg,#fff,#c9a227);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.mf-center span{font-size:11.5px;color:var(--txt3);letter-spacing:.3em}
+.mf-caption{
+position:absolute;left:20px;right:20px;bottom:20px;z-index:4;
+font-size:12px;color:var(--txt2);padding:11px 14px;border-radius:9px;
+background:rgba(6,6,12,.76);border:1px solid var(--line);backdrop-filter:blur(10px);
+}
+.mf-text h2{font-size:clamp(24px,2.9vw,36px);font-weight:800;line-height:1.3;margin-bottom:20px}
+.mf-text h2 em{font-style:normal;color:var(--acc)}
+.mf-text p{font-size:14.5px;color:var(--txt2);line-height:1.95;margin-bottom:16px}
+.mf-list{list-style:none;margin:26px 0 30px}
+.mf-list li{display:flex;gap:13px;padding:11px 0;border-bottom:1px dashed rgba(255,255,255,.06);font-size:14px;color:var(--txt)}
+.mf-list li:last-child{border-bottom:none}
+.mf-list .num{
+flex-shrink:0;width:24px;height:24px;border-radius:7px;display:grid;place-items:center;
+background:rgba(201,162,39,.12);border:1px solid rgba(201,162,39,.32);
+font-size:11.5px;font-weight:700;color:var(--acc);margin-top:2px;
+}
+.mf-list small{display:block;font-size:12.5px;color:var(--txt3);font-weight:400;margin-top:2px}
+
+/* ---------- numbers ---------- */
+.nums{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:rgba(255,255,255,.012)}
+.nums-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;padding:58px 0}
+.num-item{text-align:center;position:relative}
+.num-item:not(:last-child)::after{
+content:"";position:absolute;right:-15px;top:50%;transform:translateY(-50%);
+width:1px;height:54px;background:var(--line);
+}
+.num-item b{display:block;font-size:clamp(28px,3.4vw,42px);font-weight:800;letter-spacing:-.02em;color:var(--txt);line-height:1.1}
+.num-item b i{font-style:normal;color:var(--acc);font-size:.52em;margin-left:3px}
+.num-item span{display:block;font-size:12.5px;color:var(--txt3);letter-spacing:.14em;margin-top:9px}
+
+/* ---------- faq ---------- */
+.faq-wrap{max-width:860px;margin:0 auto}
+.faq-item{border-bottom:1px solid var(--line)}
+.faq-q{
+width:100%;display:flex;align-items:center;justify-content:space-between;gap:22px;
+padding:22px 4px;text-align:left;font-size:15.5px;font-weight:600;color:var(--txt);
+transition:.2s;
+}
+.faq-q:hover{color:var(--acc)}
+.faq-q .ic{
+flex-shrink:0;width:24px;height:24px;border-radius:50%;border:1px solid var(--line2);
+display:grid;place-items:center;transition:.3s;position:relative;
+}
+.faq-q .ic::before,.faq-q .ic::after{
+content:"";position:absolute;background:var(--txt2);transition:.3s;
+}
+.faq-q .ic::before{width:10px;height:1.5px}
+.faq-q .ic::after{width:1.5px;height:10px}
+.faq-item.open .faq-q{color:var(--acc)}
+.faq-item.open .ic{border-color:var(--acc);transform:rotate(180deg)}
+.faq-item.open .ic::before{background:var(--acc)}
+.faq-item.open .ic::after{opacity:0}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .38s ease}
+.faq-a p{padding:0 44px 24px 4px;font-size:14px;color:var(--txt2);line-height:1.95}
+.faq-a p strong{color:var(--txt);font-weight:600}
+
+/* ---------- cta ---------- */
+.cta-band{
+position:relative;border-radius:20px;overflow:hidden;
+border:1px solid rgba(201,162,39,.24);
+padding:64px 48px;text-align:center;
+background:
+radial-gradient(700px 300px at 20% -20%,rgba(139,111,212,.3),transparent 60%),
+radial-gradient(700px 300px at 84% 124%,rgba(201,162,39,.24),transparent 62%),
+linear-gradient(150deg,#12101c,#0a0910);
+}
+.cta-band h2{font-size:clamp(25px,3.2vw,40px);font-weight:800;line-height:1.28;margin-bottom:16px;letter-spacing:-.01em}
+.cta-band h2 em{font-style:normal;color:var(--acc)}
+.cta-band p{font-size:14.5px;color:var(--txt2);max-width:560px;margin:0 auto 32px;line-height:1.9}
+.cta-actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:22px}
+.cta-note{font-size:12px;color:var(--txt3);letter-spacing:.08em}
+.cta-ring{
+position:absolute;width:420px;height:420px;border-radius:50%;
+border:1px solid rgba(201,162,39,.14);top:50%;left:50%;
+transform:translate(-50%,-50%);pointer-events:none;
+}
+.cta-ring.r2{width:620px;height:620px;border-color:rgba(139,111,212,.1)}
+
+/* ---------- footer ---------- */
+.site-footer{border-top:1px solid var(--line);padding:64px 0 30px;background:rgba(255,255,255,.008);position:relative;z-index:1}
+.foot-grid{display:grid;grid-template-columns:1.7fr 1fr 1fr 1fr;gap:44px;margin-bottom:48px}
+.foot-brand p{font-size:13.5px;color:var(--txt2);line-height:1.9;margin:16px 0 22px;max-width:330px}
+.foot-social{display:flex;gap:10px}
+.foot-social a{
+width:36px;height:36px;border-radius:9px;border:1px solid var(--line);
+display:grid;place-items:center;transition:.24s;
+}
+.foot-social a:hover{border-color:rgba(201,162,39,.5);background:rgba(201,162,39,.08)}
+.foot-social svg{width:15px;height:15px;fill:var(--txt2);transition:.24s}
+.foot-social a:hover svg{fill:var(--acc)}
+.foot-col h4{font-size:13px;letter-spacing:.14em;color:var(--txt);margin-bottom:18px;font-weight:700}
+.foot-col a{display:block;font-size:13px;color:var(--txt2);padding:6px 0;transition:.2s}
+.foot-col a:hover{color:var(--acc);transform:translateX(3px)}
+.foot-bottom{
+border-top:1px solid var(--line);padding-top:24px;
+display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;
+font-size:12px;color:var(--txt3);
+}
+.foot-bottom .fb-links{display:flex;gap:20px;flex-wrap:wrap}
+.foot-bottom a:hover{color:var(--acc)}
+
+/* disclaimer */
+.disclaim{
+margin-top:26px;padding:16px 20px;border-radius:10px;
+background:rgba(255,255,255,.022);border:1px solid var(--line);
+font-size:11.5px;color:var(--txt3);line-height:1.85;
+}
+
+/* toast */
+.toast{
+position:fixed;left:50%;bottom:36px;transform:translate(-50%,24px);
+background:rgba(18,18,27,.96);border:1px solid rgba(201,162,39,.4);
+color:var(--txt);padding:13px 24px;border-radius:11px;font-size:13.5px;
+opacity:0;pointer-events:none;transition:.34s;z-index:999;
+box-shadow:0 16px 44px rgba(0,0,0,.6);backdrop-filter:blur(14px);
+}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s cubic-bezier(.22,1,.36,1),transform .7s cubic-bezier(.22,1,.36,1)}
+.reveal.in{opacity:1;transform:none}
+
+/* ---------- responsive ---------- */
+@media(max-width:1080px){
+.hero-grid{grid-template-columns:1fr;gap:46px}
+.hero-visual{max-width:640px}
+.search-box{display:none}
+.creators{grid-template-columns:repeat(2,1fr)}
+.sched-grid{grid-template-columns:repeat(2,1fr)}
+.foot-grid{grid-template-columns:1fr 1fr;gap:34px}
+}
+@media(max-width:860px){
+.nav-links{
+display:none;position:absolute;top:72px;left:0;right:0;
+flex-direction:column;align-items:stretch;gap:2px;padding:14px 20px 20px;
+background:rgba(10,10,16,.98);border-bottom:1px solid var(--line);
+backdrop-filter:blur(20px);
+}
+.nav-links.open{display:flex}
+.nav-links a{padding:12px 14px}
+.nav-links a.active::after{display:none}
+.menu-toggle{display:flex}
+.nav-right .btn-primary{display:none}
+.feat-grid{grid-template-columns:repeat(2,1fr)}
+.manifest{grid-template-columns:1fr;gap:40px}
+.nums-grid{grid-template-columns:repeat(2,1fr);gap:34px 20px;padding:44px 0}
+.num-item:nth-child(2)::after{display:none}
+.cta-band{padding:48px 24px}
+.disclaim{padding:14px 16px}
+}
+@media(max-width:620px){
+.container{padding:0 18px}
+section{padding:60px 0}
+.hero{padding:52px 0 46px}
+.hero-stats{gap:26px}
+.float-card{display:none}
+.feat-grid{grid-template-columns:1fr}
+.creators{grid-template-columns:1fr}
+.sched-grid{grid-template-columns:1fr}
+.foot-grid{grid-template-columns:1fr;gap:30px}
+.sec-head{margin-bottom:32px}
+.hero-actions .btn{flex:1;min-width:140px}
+.moon-svg{width:60px;height:60px}
+.player-meta{padding:14px}
+.player-meta b{font-size:14px}
+.num-item:nth-child(2)::after{display:block}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="#top" class="logo" aria-label="夜映 首页">
+      <span class="logo-mark">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" fill="#0e0d08"/>
+        </svg>
+      </span>
+      <span class="logo-txt">
+        <b>夜 映</b>
+        <span>NOCTURNE VISION</span>
+      </span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#featured" class="active">精选片单</a>
+      <a href="#midnight">午夜一线</a>
+      <a href="#schedule">播出档期</a>
+      <a href="#creators">创作者</a>
+      <a href="#manifest">品牌理念</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+
+    <div class="nav-right">
+      <div class="search-box">
+        <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0A4.5 4.5 0 1 1 14 9.5A4.5 4.5 0 0 1 9.5 14z"/></svg>
+        <input type="text" id="searchInput" placeholder="搜索片名 / 创作者" aria-label="站内搜索">
+      </div>
+      <button class="btn btn-primary" data-toast="已为你开启午夜放映通行证">进入放映厅</button>
+      <button class="menu-toggle" id="menuToggle" aria-label="打开导航菜单">
+        <svg viewBox="0 0 24 24"><path d="M3 6h18v2H3zM3 11h18v2H3zM3 16h18v2H3z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="hero-badge"><i class="pulse-dot"></i>24 小时轮播 · 午夜精选现已上线</span>
+      <h1>欧洲午夜一线一品精狼人在线观</h1>
+      <p class="hero-sub">Nocturne · Premium · Wolven Archive</p>
+      <p class="hero-desc">
+        夜映是一家专注<strong>午夜影像</strong>的在线视频品牌平台。我们把欧洲午夜时段的精品内容系统化收录，
+        以「一线一品」的选片标准整理成可随时点播的<strong>精狼人</strong>题材专栏。
+        从北欧冷冽的森林到南欧温润的石巷，深夜的故事在这里被重新讲述。
+      </p>
+      <div class="hero-actions">
+        <button class="btn btn-primary" data-toast="正在载入午夜专区片库…">
+          立即观看精选
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+        </button>
+        <a href="#featured" class="btn btn-ghost">浏览完整片单</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><b>1,860<i>+</i></b><span>精品片源</span></div>
+        <div class="stat"><b>42<i>万</i></b><span>注册观众</span></div>
+        <div class="stat"><b>96<i>%</i></b><span>好评率</span></div>
+        <div class="stat"><b>24<i>h</i></b><span>不间断直播</span></div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="player-frame">
+        <svg class="moon-svg" viewBox="0 0 100 100" aria-hidden="true">
+          <defs>
+            <radialGradient id="mg" cx="38%" cy="34%" r="70%">
+              <stop offset="0%" stop-color="#f4e6b0"/>
+              <stop offset="60%" stop-color="#c9a227"/>
+              <stop offset="100%" stop-color="#7a5f0f"/>
+            </radialGradient>
+          </defs>
+          <circle cx="50" cy="50" r="38" fill="url(#mg)" opacity=".92"/>
+          <circle cx="64" cy="40" r="7" fill="#0b0a06" opacity=".18"/>
+          <circle cx="40" cy="62" r="5" fill="#0b0a06" opacity=".14"/>
+          <circle cx="56" cy="66" r="3.4" fill="#0b0a06" opacity=".12"/>
+        </svg>
+
+        <div class="play-center">
+          <button class="play-btn" data-toast="午夜放映即将开始，请调整好环境光线" aria-label="播放预告片">
+            <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </div>
+
+        <div class="player-meta">
+          <span class="pm-tag">午夜·精选</span>
+          <b>月影之下 · 欧洲午夜影像辑</b>
+          <span>精狼人专栏 / 第 4 季 · 全长 108 分钟</span>
+        </div>
+        <div class="player-bar"><i></i></div>
+      </div>
+
+      <div class="float-card fc1">
+        <div class="fc-label">当前在线</div>
+        <div class="fc-val">13,842 <em>人</em></div>
+      </div>
+      <div class="float-card fc2">
+        <div class="fc-label">一线一品精选</div>
+        <div class="fc-val">已收录 268 <em>部</em></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MARQUEE ===== -->
+<div class="marquee-wrap" aria-hidden="true">
+  <div class="marquee">
+    <div class="mq-item"><i></i>欧洲午夜一线一品精狼人在线观</div>
+    <div class="mq-item"><i></i>午夜 00:00 档 · 新片首发</div>
+    <div class="mq-item"><i></i>精狼人题材专栏 · 全 4 季</div>
+    <div class="mq-item"><i></i>北欧森林取景 · 4K 修复版</div>
+    <div class="mq-item"><i></i>一线一品 · 每周三更新</div>
+    <div class="mq-item"><i></i>导演解说音轨同步上线</div>
+    <div class="mq-item"><i></i>午夜放映厅 · 24 小时直播</div>
+    <div class="mq-item"><i></i>欧洲午夜一线一品精狼人在线观</div>
+    <div class="mq-item"><i></i>午夜 00:00 档 · 新片首发</div>
+    <div class="mq-item"><i></i>精狼人题材专栏 · 全 4 季</div>
+    <div class="mq-item"><i></i>北欧森林取景 · 4K 修复版</div>
+    <div class="mq-item"><i></i>一线一品 · 每周三更新</div>
+    <div class="mq-item"><i></i>导演解说音轨同步上线</div>
+    <div class="mq-item"><i></i>午夜放映厅 · 24 小时直播</div>
+  </div>
+</div>
+
+<!-- ===== FEATURED ===== -->
+<section id="featured">
+  <div class="container">
+    <div class="sec-head reveal">
+      <div>
+        <div class="sec-label">Featured Selection</div>
+        <h2 class="sec-title">今夜必看的<em>一线一品</em></h2>
+        <p class="sec-desc">每一部都经过选片团队多轮观看与讨论，覆盖欧洲午夜影像的不同流派与年代，从冷峻纪实到诗性叙事。</p>
+      </div>
+      <a href="#" class="sec-link" data-toast="片单正在同步刷新，请稍候">查看全部精选
+        <svg viewBox="0 0 24 24"><path d="M8.6 16.6 13.2 12 8.6 7.4 10 6l6 6-6 6z"/></svg>
+      </a>
+    </div>
+
+    <div class="feat-grid">
+      <article class="feat-card reveal">
+        <div class="feat-thumb">
+          <div class="art art-a1"></div>
+          <div class="art-deco">
+            <svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice">
+              <circle cx="220" cy="52" r="30" fill="#c9a227" opacity=".55"/>
+              <path d="M0 140 L60 96 L120 132 L190 84 L260 124 L320 92 L320 180 L0 180Z" fill="#0a0812" opacity=".72"/>
+              <path d="M0 152 L70 118 L140 148 L210 110 L280 144 L320 122 L320 180 L0 180Z" fill="#05040a" opacity=".9"/>
+            </svg>
+          </div>
+          <span class="cat-pill">精狼人专栏</span>
+          <span class="dur">1:48:22</span>
+        </div>
+        <div class="feat-body">
+          <h3>月影之下 · 欧洲午夜影像辑</h3>
+          <p>四个夜晚，四段在欧洲古城与黑森林之间展开的叙事。镜头以近乎纪录的方式跟随月色，把狼人的传说还原成关于孤独与归属的当代寓言。</p>
+          <div class="feat-foot">
+            <span class="who"><span class="mini-av art-a1"></span>苏黎工作室</span>
+            <span>4K · 中字</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="feat-card reveal">
+        <div class="feat-thumb">
+          <div class="art art-a2"></div>
+          <div class="art-deco">
+            <svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice">
+              <rect x="40" y="60" width="52" height="120" fill="#0c0a05" opacity=".7"/>
+              <rect x="110" y="40" width="40" height="140" fill="#0c0a05" opacity=".8"/>
+              <rect x="168" y="72" width="66" height="108" fill="#0c0a05" opacity=".72"/>
+              <rect x="250" y="52" width="34" height="128" fill="#0c0a05" opacity=".85"/>
+              <circle cx="248" cy="40" r="16" fill="#e8dcc0" opacity=".5"/>
+            </svg>
+          </div>
+          <span class="cat-pill">城市夜行</span>
+          <span class="dur">52:10</span>
+        </div>
+        <div class="feat-body">
+          <h3>凌晨一点的欧洲街角</h3>
+          <p>跟随夜班电车与路灯的节奏，把一座座城市的午夜切片拼贴成完整的声音地图。没有旁白，只有环境音与偶尔响起的脚步。</p>
+          <div class="feat-foot">
+            <span class="who"><span class="mini-av art-a2"></span>夜轨影像</span>
+            <span>1080P · 环绕声</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="feat-card reveal">
+        <div class="feat-thumb">
+          <div class="art art-a3"></div>
+          <div class="art-deco">
+            <svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice">
+              <path d="M0 128 Q80 66 160 112 T320 84 L320 180 L0 180Z" fill="#180509" opacity=".82"/>
+              <path d="M0 148 Q90 104 170 136 T320 110 L320 180 L0 180Z" fill="#0a0305" opacity=".94"/>
+              <circle cx="96" cy="44" r="12" fill="#e0475b" opacity=".5"/>
+            </svg>
+          </div>
+          <span class="cat-pill">剧情长片</span>
+          <span class="dur">2:06:44</span>
+        </div>
+        <div class="feat-body">
+          <h3>红月之约</h3>
+          <p>一桩发生在边境小镇的旧案，在多年后的一个红月夜里被重新提起。影像用克制的色调处理暴力，把悬念留给观众自己完成。</p>
+          <div class="feat-foot">
+            <span class="who"><span class="mini-av art-a3"></span>边界影业</span>
+            <span>4K · 导演解说</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="feat-card reveal">
+        <div class="feat-thumb">
+          <div class="art art-a4"></div>
+          <div class="art-deco">
+            <svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice">
+              <path d="M0 150 L48 110 L92 142 L150 96 L210 138 L268 102 L320 130 L320 180 L0 180Z" fill="#061012" opacity=".86"/>
+              <path d="M120 0 L180 0 L164 62 L136 62Z" fill="#bfe6ea" opacity=".14"/>
+              <circle cx="240" cy="42" r="9" fill="#bfe6ea" opacity=".5"/>
+            </svg>
+          </div>
+          <span class="cat-pill">纪实影像</span>
+          <span class="dur">44:30</span>
+        </div>
+        <div class="feat-body">
+          <h3>森林里的第七个夜晚</h3>
+          <p>摄制组在北欧林区持续拍摄七个夜晚，记录动物足迹与微光的变化。这部作品让"狼人"从传说回到自然，成为一次关于野性的观察。</p>
+          <div class="feat-foot">
+            <span class="who"><span class="mini-av art-a4"></span>北纬影像社</span>
+            <span>4K HDR · 中字</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="feat-card reveal">
+        <div class="feat-thumb">
+          <div class="art art-a5"></div>
+          <div class="art-deco">
+            <svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice">
+              <circle cx="160" cy="90" r="52" fill="none" stroke="#b9a6ee" stroke-width="1.2" opacity=".38"/>
+              <circle cx="160" cy="90" r="76" fill="none" stroke="#b9a6ee" stroke-width=".8" opacity=".2"/>
+              <circle cx="160" cy="90" r="26" fill="#b9a6ee" opacity=".2"/>
+              <circle cx="236" cy="90" r="3" fill="#d9ccff" opacity=".8"/>
+            </svg>
+          </div>
+          <span class="cat-pill">实验短片</span>
+          <span class="dur">18:05</span>
+        </div>
+        <div class="feat-body">
+          <h3>午夜的十二种回声</h3>
+          <p>以十二段循环影像构成的实验合集，声音与画面互为镜像。适合在真正的深夜打开，让屏幕成为房间里唯一的光源。</p>
+          <div class="feat-foot">
+            <span class="who"><span class="mini-av art-a5"></span>回声实验室</span>
+            <span>1080P · 立体声</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="feat-card reveal">
+        <div class="feat-thumb">
+          <div class="art art-a6"></div>
+          <div class="art-deco">
+            <svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice">
+              <rect x="0" y="118" width="320" height="62" fill="#130f06" opacity=".9"/>
+              <path d="M0 118 L64 82 L120 108 L182 74 L240 104 L320 78 L320 118Z" fill="#0b0803" opacity=".92"/>
+              <circle cx="264" cy="34" r="14" fill="#e6cb84" opacity=".55"/>
+            </svg>
+          </div>
+          <span class="cat-pill">幕后实录</span>
+          <span class="dur">36:18</span>
+        </div>
+        <div class="feat-body">
+          <h3>一线一品 · 拍摄手记</h3>
+          <p>从勘景到收音，从夜晚排期到后期调色，完整记录一部午夜影像的诞生过程。创作者亲自讲述那些没有进入正片的取舍。</p>
+          <div class="feat-foot">
+            <span class="who"><span class="mini-av art-a6"></span>夜映自制</span>
+            <span>1080P · 中字</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MIDNIGHT STRIP ===== -->
+<section class="midnight" id="midnight">
+  <div class="container">
+    <div class="sec-head reveal">
+      <div>
+        <div class="sec-label">Midnight Line</div>
+        <h2 class="sec-title">午夜<em>一线</em> · 正在热播</h2>
+        <p class="sec-desc">横向滑动查看更多，每一档都对应一个真实的午夜时段，从零点到破晓，屏幕从不熄灯。</p>
+      </div>
+      <a href="#" class="sec-link" data-toast="更多午夜档内容正在加载">全部档期
+        <svg viewBox="0 0 24 24"><path d="M8.6 16.6 13.2 12 8.6 7.4 10 6l6 6-6 6z"/></svg>
+      </a>
+    </div>
+
+    <div class="strip-row reveal">
+      <div class="strip-card">
+        <div class="strip-thumb art-a1"><span class="no">01</span></div>
+        <div class="strip-info"><b>月光契约 · 上集</b><span>精狼人专栏 / 58 分钟</span></div>
+      </div>
+      <div class="strip-card">
+        <div class="strip-thumb art-a3"><span class="no">02</span></div>
+        <div class="strip-info"><b>红月之约 · 未删减</b><span>剧情长片 / 126 分钟</span></div>
+      </div>
+      <div class="strip-card">
+        <div class="strip-thumb art-a4"><span class="no">03</span></div>
+        <div class="strip-info"><b>森林里的第七个夜晚</b><span>纪实影像 / 44 分钟</span></div>
+      </div>
+      <div class="strip-card">
+        <div class="strip-thumb art-a2"><span class="no">04</span></div>
+        <div class="strip-info"><b>凌晨一点的欧洲街角</b><span>城市夜行 / 52 分钟</span></div>
+      </div>
+      <div class="strip-card">
+        <div class="strip-thumb art-a5"><span class="no">05</span></div>
+        <div class="strip-info"><b>午夜的十二种回声</b><span>实验短片 / 18 分钟</span></div>
+      </div>
+      <div class="strip-card">
+        <div class="strip-thumb art-a6"><span class="no">06</span></div>
+        <div class="strip-info"><b>一线一品 · 拍摄手记</b><span>幕后实录 / 36 分钟</span></div>
+      </div>
+      <div class="strip-card">
+        <div class="strip-thumb art-a1"><span class="no">07</span></div>
+        <div class="strip-info"><b>月光契约 · 下集</b><span>精狼人专栏 / 61 分钟</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SCHEDULE ===== -->
+<section id="schedule">
+  <div class="container">
+    <div class="sec-head reveal">
+      <div>
+        <div class="sec-label">Broadcast Schedule</div>
+        <h2 class="sec-title">一周<em>播出档期</em></h2>
+        <p class="sec-desc">所有时段以北京时间标注，直播结束后 30 分钟内自动生成回放，会员可无限次回看。</p>
+      </div>
+    </div>
+
+    <div class="sched-grid reveal">
+      <div class="sched-col">
+        <div class="sched-head"><b>周一 / 周二</b><span>MON · TUE</span></div>
+        <div class="sched-item"><span class="sched-time">00:00</span><div class="sched-body"><b>月光契约 · 重映</b><span>精狼人专栏</span></div></div>
+        <div class="sched-item"><span class="sched-time">02:30</span><div class="sched-body"><b>夜行电台 Vol.12</b><span>音频直播</span></div></div>
+        <div class="sched-item"><span class="sched-time">21:00</span><div class="sched-body"><b>选片人圆桌</b><span>社区直播</span></div></div>
+      </div>
+      <div class="sched-col">
+        <div class="sched-head"><b>周三 / 周四</b><span>WED · THU</span></div>
+        <div class="sched-item"><span class="sched-time">00:00</span><div class="sched-body"><b>一线一品 · 新片首发</b><span>每周固定更新</span></div></div>
+        <div class="sched-item"><span class="sched-time">01:20</span><div class="sched-body"><b>导演解说场</b><span>附音轨</span></div></div>
+        <div class="sched-item"><span class="sched-time">23:00</span><div class="sched-body"><b>午夜短片集</b><span>实验单元</span></div></div>
+      </div>
+      <div class="sched-col">
+        <div class="sched-head"><b>周五 / 周六</b><span>FRI · SAT</span></div>
+        <div class="sched-item"><span class="sched-time">23:30</span><div class="sched-body"><b>午夜长片 · 首映</b><span>4K 版本</span></div></div>
+        <div class="sched-item"><span class="sched-time">01:00</span><div class="sched-body"><b>红月之约 · 连映</b><span>剧情长片</span></div></div>
+        <div class="sched-item"><span class="sched-time">03:00</span><div class="sched-body"><b>城市夜行慢直播</b><span>不间断</span></div></div>
+      </div>
+      <div class="sched-col">
+        <div class="sched-head"><b>周日</b><span>SUN</span></div>
+        <div class="sched-item"><span class="sched-time">00:00</span><div class="sched-body"><b>一周精选回顾</b><span>合集</span></div></div>
+        <div class="sched-item"><span class="sched-time">20:00</span><div class="sched-body"><b>创作者开放麦</b><span>社区活动</span></div></div>
+        <div class="sched-item"><span class="sched-time">22:30</span><div class="sched-body"><b>午夜预告 · 下周前瞻</b><span>节目单</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CREATORS ===== -->
+<section id="creators">
+  <div class="container">
+    <div class="sec-head reveal">
+      <div>
+        <div class="sec-label">Creators</div>
+        <h2 class="sec-title">让午夜故事持续发生的<em>创作者</em></h2>
+        <p class="sec-desc">夜映与独立影像团队长期合作，平台提供发行、修复与社区运营支持，创作者只需专注于内容本身。</p>
+      </div>
+      <a href="#" class="sec-link" data-toast="创作者入驻通道已开放，欢迎提交作品">成为创作者
+        <svg viewBox="0 0 24 24"><path d="M8.6 16.6 13.2 12 8.6 7.4 10 6l6 6-6 6z"/></svg>
+      </a>
+    </div>
+
+    <div class="creators reveal">
+      <div class="creator">
+        <div class="c-avatar av1">苏</div>
+        <b>苏黎工作室</b>
+        <div class="role">叙事影像 · 主创</div>
+        <p>专注欧洲夜间的城市叙事，擅长在安静镜头里藏住情绪的转折，作品常以季节为章节结构。</p>
+        <div class="c-tags"><span>剧情</span><span>4K</span><span>精狼人</span></div>
+      </div>
+      <div class="creator">
+        <div class="c-avatar av2">夜</div>
+        <b>夜轨影像</b>
+        <div class="role">环境声音 · 纪录</div>
+        <p>以声音为第一语言，把城市交通、雨水与脚步录成完整的午夜声景，作品多次进入平台年度榜。</p>
+        <div class="c-tags"><span>纪实</span><span>环绕声</span><span>夜行</span></div>
+      </div>
+      <div class="creator">
+        <div class="c-avatar av3">边</div>
+        <b>边界影业</b>
+        <div class="role">类型长片 · 制片</div>
+        <p>专注边境地带的悬疑与类型表达，画面克制，善于让观众在结束之后继续在脑中补完故事。</p>
+        <div class="c-tags"><span>悬疑</span><span>长片</span><span>导演解说</span></div>
+      </div>
+      <div class="creator">
+        <div class="c-avatar av4">北</div>
+        <b>北纬影像社</b>
+        <div class="role">自然观察 · 摄影</div>
+        <p>长时间驻扎林区拍摄野生动物与微光变化，把传说带回到真实的自然现场，耐心是他们的方法。</p>
+        <div class="c-tags"><span>自然</span><span>HDR</span><span>生态</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MANIFEST ===== -->
+<section id="manifest">
+  <div class="container manifest">
+    <div class="mf-visual reveal">
+      <div class="mf-art"></div>
+      <div class="mf-grid-lines"></div>
+      <div class="mf-ring"></div>
+      <div class="mf-ring r2"></div>
+      <div class="mf-center">
+        <b>00:00</b>
+        <span>MIDNIGHT</span>
+      </div>
+      <div class="mf-caption">午夜不是一天的结束，而是一天真正开始被倾听的时候。</div>
+    </div>
+
+    <div class="mf-text reveal">
+      <h2>我们相信，<em>一线一品</em>不是稀缺，而是耐心</h2>
+      <p>
+        在海量内容里，真正值得在深夜打开的作品并不多。夜映的做法很简单：慢一点选，少一点推，
+        把每一部上线的片子都看完整，再决定它是否值得出现在你的午夜。
+      </p>
+      <p>
+        「欧洲午夜一线一品精狼人在线观」是我们的核心专栏之一——它既有欧洲午夜影像的地理与气质，
+        也有关于狼人这一古老母题的当代重述。我们把纪录片、剧情片与实验短片放在同一条时间线上，
+        让观众自己发现它们之间的联系。
+      </p>
+      <ul class="mf-list">
+        <li><span class="num">01</span><div>完整观看制<small>任何内容上线前都必须由至少两位选片人完整观看并撰写意见。</small></div></li>
+        <li><span class="num">02</span><div>午夜优先排期<small>核心内容默认安排在零点前后上线，尊重作品本身的观看语境。</small></div></li>
+        <li><span class="num">03</span><div>创作者友好分成<small>清晰的收益结构与数据看板，让创作者可以持续投入下一部作品。</small></div></li>
+        <li><span class="num">04</span><div>社区共同维护<small>评论区与片单由社区共同建设，恶意的评价会被及时处理。</small></div></li>
+      </ul>
+      <a href="#" class="btn btn-primary" data-toast="品牌手册已发送至你的邮箱">下载品牌手册</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== NUMBERS ===== -->
+<div class="nums">
+  <div class="container nums-grid reveal">
+    <div class="num-item"><b>1,860<i>+</i></b><span>精品片源</span></div>
+    <div class="num-item"><b>268<i>部</i></b><span>一线一品专栏</span></div>
+    <div class="num-item"><b>42<i>万</i></b><span>注册观众</span></div>
+    <div class="num-item"><b>96<i>%</i></b><span>观众好评率</span></div>
+  </div>
+</div>
+
+<!-- ===== FAQ ===== -->
+<section id="faq">
+  <div class="container">
+    <div class="sec-head reveal" style="justify-content:center;text-align:center;flex-direction:column;align-items:center">
+      <div class="sec-label" style="justify-content:center">FAQ</div>
+      <h2 class="sec-title">关于<em>午夜观看</em>，你可能想知道</h2>
+      <p class="sec-desc" style="margin-left:auto;margin-right:auto">常见问题整理，若仍未解决，可通过页脚的社区入口联系我们。</p>
+    </div>
+
+    <div class="faq-wrap reveal">
+      <div class="faq-item">
+        <button class="faq-q">「欧洲午夜一线一品精狼人在线观」具体包含哪些内容？<span class="ic"></span></button>
+        <div class="faq-a"><p>该专栏是夜映围绕<strong>欧洲午夜影像</strong>与狼人母题建立的内容合集，包含剧情长片、纪实影像、实验短片与幕后手记四个子单元，按季度更新，支持在线点播与回看。</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">在线观看需要注册账号吗？<span class="ic"></span></button>
+        <div class="faq-a"><p>大部分预告与短片无需登录即可观看；完整长片、导演解说音轨与高清版本需要注册账号并登录。注册后可在多端同步观看进度。</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">更新频率是怎样的？<span class="ic"></span></button>
+        <div class="faq-a"><p>一线一品专栏固定<strong>每周三零点</strong>更新，午夜长片在周五、周六首映，其余时段安排重映与社区直播。完整信息可查看播出档期板块。</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">支持哪些设备与清晰度？<span class="ic"></span></button>
+        <div class="faq-a"><p>支持电脑浏览器、移动端和平板，部分内容提供 4K HDR 与环绕声版本。清晰度会根据当前网络自动切换，也可以在播放器中手动锁定。</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">创作者如何提交作品？<span class="ic"></span></button>
+        <div class="faq-a"><p>通过页脚「创作者中心」入口提交作品资料与完整成片链接，选片团队会在<strong>十个工作日内</strong>回复。通过初审的作品会进入完整观看流程。</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">社区讨论有什么规范？<span class="ic"></span></button>
+        <div class="faq-a"><p>我们鼓励具体的、基于作品的讨论，反对人身攻击与无意义刷屏。涉及剧透的内容请使用剧透标签。违规内容会被折叠，重复违规将限制发言权限。</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section>
+  <div class="container">
+    <div class="cta-band reveal">
+      <div class="cta-ring"></div>
+      <div class="cta-ring r2"></div>
+      <h2>把灯光调暗，让<em>午夜影像</em>开始播放</h2>
+      <p>注册即可获得午夜专区七日体验，包含一线一品专栏全季内容与导演解说音轨。</p>
+      <div class="cta-actions">
+        <button class="btn btn-primary" data-toast="体验已开通，去午夜专区看看吧">免费开启体验</button>
+        <a href="#featured" class="btn btn-ghost">先看看片单</a>
+      </div>
+      <div class="cta-note">无需绑定支付方式 · 随时可取消 · 支持多端同步</div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a href="#top" class="logo">
+          <span class="logo-mark">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" fill="#0e0d08"/>
+            </svg>
+          </span>
+          <span class="logo-txt">
+            <b>夜 映</b>
+            <span>NOCTURNE VISION</span>
+          </span>
+        </a>
+        <p>夜映是专注午夜影像的在线视频品牌平台，以「一线一品」的选片标准整理欧洲午夜精品内容与精狼人题材专栏，让深夜的屏幕也有值得等待的故事。</p>
+        <div class="foot-social">
+          <a href="#" data-toast="微博主页暂未开放外链" aria-label="微博">
+            <svg viewBox="0 0 24 24"><path d="M20.2 8.4c-.3-2.1-2-3.5-4.2-3.4-1.2 0-2.3.5-3.1 1.3-.4.4-.4 1 0 1.3.4.4 1 .4 1.3 0 .4-.5 1.1-.8 1.8-.8 1.3 0 2.2.8 2.4 2.1.1.6.6 1 1.2.9.6-.1 1-.6.9-1.2 0-.1-.1-.1-.1-.2zM12 4c-2.2 0-4.2.9-5.7 2.4-.4.4-.4 1 0 1.4.4.4 1 .4 1.4 0C8.9 6.6 10.4 6 12 6c4.4 0 8 3.6 8 8 0 .6.4 1 1 1s1-.4 1-1c0-5.5-4.5-10-10-10zM7.5 13c-2.5 0-4.5 1.8-4.5 4s2 4 4.5 4 4.5-1.8 4.5-4-2-4-4.5-4zm0 6c-1 0-1.8-.7-1.8-1.6s.8-1.6 1.8-1.6 1.8.7 1.8 1.6-.8 1.6-1.8 1.6z"/></svg>
+          </a>
+          <a href="#" data-toast="微信视频号通道暂未开放" aria-label="视频号">
+            <svg viewBox="0 0 24 24"><path d="M8.7 4C4.9 4 1.8 6.6 1.8 9.8c0 1.8 1 3.4 2.6 4.5l-.7 2.1 2.4-1.2c.8.2 1.7.3 2.6.3h.3c-.2-.6-.3-1.2-.3-1.8 0-3.2 3.1-5.8 6.9-5.8h.5C15.6 5.8 12.5 4 8.7 4zm-2.4 3.1c.5 0 .9.4.9.9s-.4.9-.9.9-.9-.4-.9-.9.4-.9.9-.9zm4.8 0c.5 0 .9.4.9.9s-.4.9-.9.9-.9-.4-.9-.9.4-.9.9-.9zm3.3 2.6c-3.4 0-6.2 2.3-6.2 5.1s2.8 5.1 6.2 5.1c.7 0 1.4-.1 2-.3l1.9 1-.5-1.7c1.3-.9 2.1-2.3 2.1-4 0-2.9-2.5-5.2-5.5-5.2zm-2.1 3.4c.4 0 .7.3.7.7s-.3.7-.7.7-.7-.3-.7-.7.3-.7.7-.7zm4.2 0c.4 0 .7.3.7.7s-.3.7-.7.7-.7-.3-.7-.7.3-.7.7-.7z"/></svg>
+          </a>
+          <a href="#" data-toast="B 站账号维护中" aria-label="B站">
+            <svg viewBox="0 0 24 24"><path d="M17.8 5.2h-1.6l1-1.1c.3-.3.3-.8 0-1.1-.3-.3-.8-.3-1.1 0L14.4 5H9.6L7.9 3c-.3-.3-.8-.3-1.1 0-.3.3-.3.8 0 1.1l1 1.1H6.2C4.4 5.2 3 6.6 3 8.4v8.4c0 1.8 1.4 3.2 3.2 3.2h11.6c1.8 0 3.2-1.4 3.2-3.2V8.4c0-1.8-1.4-3.2-3.2-3.2zM8.5 15.5c-.8 0-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5 1.5.7 1.5 1.5-.7 1.5-1.5 1.5zm7 0c-.8 0-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5 1.5.7 1.5 1.5-.7 1.5-1.5 1.5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="foot-col">
+        <h4>内容</h4>
+        <a href="#featured">精选片单</a>
+        <a href="#midnight">午夜一线</a>
+        <a href="#schedule">播出档期</a>
+        <a href="#creators">创作者</a>
+        <a href="#faq">常见问题</a>
+      </div>
+
+      <div class="foot-col">
+        <h4>品牌</h4>
+        <a href="#manifest">品牌理念</a>
+        <a href="#" data-toast="关于页面即将上线">关于夜映</a>
+        <a href="#" data-toast="联系方式页即将上线">联系方式</a>
+        <a href="#" data-toast="招聘信息即将上线">加入我们</a>
+        <a href="#" data-toast="媒体资料包准备中">媒体资料</a>
+      </div>
+
+      <div class="foot-col">
+        <h4>支持</h4>
+        <a href="#" data-toast="帮助中心正在构建">帮助中心</a>
+        <a href="#" data-toast="账号安全设置即将开放">账号安全</a>
+        <a href="#" data-toast="创作者中心通道即将开放">创作者中心</a>
+        <a href="#" data-toast="社区规范页面即将上线">社区规范</a>
+        <a href="#" data-toast="反馈已记录，感谢你的建议">意见反馈</a>
+      </div>
+    </div>
+
+    <div class="disclaim">
+      本站为演示性质的品牌官网首页，页面中展示的片名、创作者、数据与档期均为示例内容，不构成任何真实的观看或交易指引。
+      页面致力于呈现午夜影像品牌的内容组织方式与社区氛围，所有影像素材均以原创矢量图形呈现，不含真实影片片段。
+    </div>
+
+    <div class="foot-bottom">
+      <span>© 2024 夜映 NOCTURNE VISION · 午夜影像品牌</span>
+      <div class="fb-links">
+        <a href="#" data-toast="隐私政策页面即将上线">隐私政策</a>
+        <a href="#" data-toast="服务条款页面即将上线">服务条款</a>
+        <a href="#" data-toast="内容声明页面即将上线">内容声明</a>
+        <a href="#top">回到顶部</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- mobile nav ---------- */
+  var menuToggle = document.getElementById('menuToggle');
+  var navLinks = document.getElementById('navLinks');
+  if(menuToggle && navLinks){
+    menuToggle.addEventListener('click', function(){
+      navLinks.classList.toggle('open');
+    });
+    navLinks.addEventListener('click', function(e){
+      if(e.target.tagName === 'A'){
+        navLinks.classList.remove('open');
+      }
+    });
+  }
+
+  /* ---------- active nav on scroll ---------- */
+  var sections = ['featured','midnight','schedule','creators','manifest','faq'];
+  var links = Array.prototype.slice.call(document.querySelectorAll('.nav-links a'));
+  function syncNav(){
+    var pos = window.scrollY + 140;
+    var current = '';
+    sections.forEach(function(id){
+      var el = document.getElementById(id);
+      if(el && el.offsetTop <= pos) current = id;
+    });
+    links.forEach(function(a){
+      var href = a.getAttribute('href') || '';
+      a.classList.toggle('active', href === '#' + current);
+    });
+  }
+  window.addEventListener('scroll', syncNav, {passive:true});
+  syncNav();
+
+  /* ---------- toast ---------- */
+  var toastEl = document.getElementById('toast');
+  var toastTimer = null;
+  function showToast(msg){
+    if(!toastEl) return;
+    toastEl.textContent = msg;
+    toastEl.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){
+      toastEl.classList.remove('show');
+    }, 2400);
+  }
+  document.addEventListener('click', function(e){
+    var t = e.target.closest('[data-toast]');
+    if(t){
+      e.preventDefault();
+      showToast(t.getAttribute('data-toast'));
+    }
+  });
+
+  /* ---------- faq accordion ---------- */
+  var faqItems = Array.prototype.slice.call(document.querySelectorAll('.faq-item'));
+  faqItems.forEach(function(item){
+    var q = item.querySelector('.faq-q');
+    var a = item.querySelector('.faq-a');
+    if(!q || !a) return;
+    q.addEventListener('click', function(){
+      var isOpen = item.classList.contains('open');
+      faqItems.forEach(function(other){
+        other.classList.remove('open');
+        var oa = other.querySelector('.faq-a');
+        if(oa) oa.style.maxHeight = null;
+      });
+      if(!isOpen){
+        item.classList.add('open');
+        a.style.maxHeight = a.scrollHeight + 'px';
+      }
+    });
+  });
+  if(faqItems.length){
+    faqItems[0].classList.add('open');
+    var fa = faqItems[0].querySelector('.faq-a');
+    if(fa) fa.style.maxHeight = fa.scrollHeight + 'px';
+  }
+  window.addEventListener('resize', function(){
+    faqItems.forEach(function(item){
+      if(item.classList.contains('open')){
+        var a = item.querySelector('.faq-a');
+        if(a) a.style.maxHeight = a.scrollHeight + 'px';
+      }
+    });
+  });
+
+  /* ---------- reveal on scroll ---------- */
+  var revealEls = Array.prototype.slice.call(document.querySelectorAll('.reveal'));
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          en.target.classList.add('in');
+          io.unobserve(en.target);
+        }
+      });
+    }, {threshold:0.12, rootMargin:'0px 0px -40px 0px'});
+    revealEls.forEach(function(el, i){
+      el.style.transitionDelay = (i % 4) * 70 + 'ms';
+      io.observe(el);
+    });
+  } else {
+    revealEls.forEach(function(el){ el.classList.add('in'); });
+  }
+
+  /* ---------- search ---------- */
+  var searchInput = document.getElementById('searchInput');
+  if(searchInput){
+    searchInput.addEventListener('keydown', function(e){
+      if(e.key === 'Enter'){
+        var v = this.value.trim();
+        if(v){
+          showToast('正在为你搜索「' + v + '」相关午夜影像…');
+        } else {
+          showToast('请输入片名或创作者名称');
+        }
+      }
+    });
+  }
+
+  /* ---------- smooth anchor offset ---------- */
+  document.addEventListener('click', function(e){
+    var a = e.target.closest('a[href^="#"]');
+    if(!a) return;
+    var href = a.getAttribute('href');
+    if(href === '#' || href.length < 2) return;
+    var target = document.querySelector(href);
+    if(!target) return;
+    e.preventDefault();
+    var top = target.getBoundingClientRect().top + window.scrollY - 84;
+    window.scrollTo({top: top, behavior:'smooth'});
+  });
+
+  /* ---------- subtle parallax on hero visual ---------- */
+  var heroVisual = document.querySelector('.hero-visual');
+  if(heroVisual && window.matchMedia('(min-width: 1081px)').matches){
+    window.addEventListener('mousemove', function(e){
+      var cx = (e.clientX / window.innerWidth - 0.5);
+      var cy = (e.clientY / window.innerHeight - 0.5);
+      heroVisual.style.transform = 'translate3d(' + (cx * 10) + 'px,' + (cy * 10) + 'px,0)';
+    }, {passive:true});
+  }
+})();
+</script>
+</body>
+  </html>
